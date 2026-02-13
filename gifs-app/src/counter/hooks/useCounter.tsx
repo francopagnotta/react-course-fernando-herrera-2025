@@ -13,7 +13,7 @@ export const useCounter = (initialValue: number = 0) => {
   };
 
   const handleReset = () => {
-    setCounter(0);
+    setCounter(initialValue);
   };
 
   return {
